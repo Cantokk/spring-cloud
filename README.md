@@ -27,3 +27,6 @@
 ### Netflix Zuul api gateway server
 - http://localhost:8765/currency-exchange-service/currency-exchange/from/AUD/to/INR
 - http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/1000 (check the Zuul filtering log, this will trigger the first api as well)
+
+### Spring Cloud Sleuth
+- Generate global UUID for tracing. UUID is shown in logging for each server with Sleuth enabled.
