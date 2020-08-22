@@ -25,4 +25,5 @@
 - http://localhost:8761/
 
 ### Netflix Zuul api gateway server
+- http://localhost:8765/currency-exchange-service/currency-exchange/from/AUD/to/INR
 - http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/1000
