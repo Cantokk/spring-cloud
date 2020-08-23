@@ -32,7 +32,7 @@
 - Generate global UUID for tracing. UUID is shown in logging for each server with Sleuth enabled.
 
 ### Spring Cloud Zipkin
-- Install and launch Zipkin (https://zipkin.io/pages/quickstart and then http://127.0.0.1:9411/zipkin/)
+- Install and launch Zipkin (https://zipkin.io/pages/quickstart and RABBIT_URI=amqp://localhost java -jar zipkin.jar, then http://127.0.0.1:9411/zipkin/)
 
 ### RabbitMQ
 - Install and launch RabbitMQ (https://www.rabbitmq.com/install-homebrew.html and then /usr/local/sbin/rabbitmq-server)
