@@ -1,7 +1,8 @@
 # spring cloud microservices
 
 ### Limits Service
-
+- http://localhost:8080/limits
+- http://localhost:8080/fault-tolerance-example
 
 ### Spring Cloud Config Server
 - Server that fetch config from local git repo
@@ -36,3 +37,7 @@
 
 ### RabbitMQ
 - Install and launch RabbitMQ (https://www.rabbitmq.com/install-homebrew.html and then /usr/local/sbin/rabbitmq-server)
+
+# Demo
+## 1. Limits Service & Spring Cloud Config Server as a group to demenstrate config management
+## 2. Other server as a group to demenstrate currency conversion
