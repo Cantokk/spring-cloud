@@ -14,6 +14,7 @@
 - http://localhost:8000/currency-exchange/from/AUD/to/INR
 - http://localhost:8001/currency-exchange/from/AUD/to/INR
 - ... (many other ports)
+- http://localhost:8000/h2-console, query H2 database
 
 ### Currency Conversion Service
 - http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/1000
